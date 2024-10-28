@@ -85,10 +85,9 @@ export const CustomButton = () => {
                   </button>
                   <button
                     onClick={openAccountModal}
-                    className="font-DenimINKRegular rounded-[6px] border-[0.5px] border-[#E3E4E9] hover:bg-[#F7F8FA] hover:transition-all hover:delay-100 text-[#3A522E] flex flex-row gap-4 items-center h-10 w-full px-4"
+                    className="font-DenimINKRegular rounded-[6px] border-[0.5px] border-[#E3E4E9] hover:bg-[#F7F8FA] hover:transition-all hover:delay-100 text-[#3A522E] flex flex-row gap-4 items-center h-10 w-fit px-4"
                    type="button"
                   >
-                    {/* <Icon classes='' name={'link-square.svg'} size={[24, 24]} /> */}
                     {account.displayName}
                   </button>
                 </div>

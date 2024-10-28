@@ -25,6 +25,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: #fff;
+  @apply font-xhelvetica;
 }
 
 @layer utilities {
