@@ -31,4 +31,20 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .searchBar:hover{
+    @apply border-green-700 border-[2px]
+  }
+  .amount{
+    @apply flex justify-between place-items-baseline
+  }
+  .amount :first-child{
+    @apply font-extrabold text-4xl
+  }
+  .amount :last-child{
+    @apply font-semibold mx-2
+  }
+  .action :hover{
+    @apply bg-gray-200
+  }
 }
